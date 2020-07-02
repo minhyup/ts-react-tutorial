@@ -7,7 +7,8 @@ type GreetingsProps = {
   onClick: (name: string) => void;
 };
 
-const Greetings = ({ name, mark, optional, onClick }: GreetingsProps) => {
+// const Greetings = ({ name, mark, optional, onClick }: GreetingsProps) => {
+function Greetings({ name, mark, optional, onClick }: GreetingsProps) {
   return (
     <div>
       Hello {name}, {mark}
@@ -17,7 +18,7 @@ const Greetings = ({ name, mark, optional, onClick }: GreetingsProps) => {
       </div>
     </div>
   );
-};
+}
 Greetings.defaultProps = {
   mark: '!'
 };

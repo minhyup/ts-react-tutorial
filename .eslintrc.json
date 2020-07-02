@@ -27,7 +27,9 @@
     "spaced-comment": ["error", "always", {
       "line": { "markers": ["!"] },
       "block": { "balanced": true }
-    }]
+    }],
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
   },
   "settings":  {
     "react":  {
